@@ -1,0 +1,26 @@
+body {
+  background: teal;
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  text-align: center;
+  height: 100%;
+}
+
+.typist-container {
+  margin-top: 3em;
+}
+
+.typist {
+    display: none;
+    border-right: 2px solid #fff;
+    padding-right: 6px;
+    -webkit-animation: example 1s infinite;
+    animation: example 1s infinite;
+}
+
+@keyframes example {
+    0% {border-right-color: transparent;}
+    50% {border-right-color: #fff;}
+    100% {border-right-color: transparent;}
+}
